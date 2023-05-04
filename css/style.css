@@ -1,0 +1,354 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+
+
+
+body{
+	 font-family: 'Alkatra', cursive;
+     font-family: 'Open Sans', sans-serif;
+	 font-weight:500;
+}
+
+
+
+
+
+
+
+
+
+
+.header{
+	padding:15px 0;
+	
+	
+	
+	
+}
+
+.header a{
+	text-decoration:none;
+	color:black;
+	
+}
+
+.btn a{
+	font-size:14px;
+	color:#fff;
+	background-color:#ce1212;
+	padding:8px 20px;
+	border-radius:50px;
+	/* margin-left:30px; */
+	display:inline-block;
+	
+}
+
+
+
+.btn .ho:hover{
+	background-color:#c35454;
+	box-shadow:2px 2px 30px #ce1212;
+}
+
+
+
+
+.list li a.active::after{
+	content:"";
+	position:absolute;
+	background-color:red;
+	height:2px;
+	width:100%;
+	left:0;
+	bottom:-5px;
+	transition:0.3s;
+	color:black;
+}
+.text-end{
+	text-align:end;
+}
+.text-end a:hover{
+	background-color:#e19d9d;
+	
+	
+	
+}
+
+.container{
+	width:90%;
+	margin:0 auto;
+}
+
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.list{
+	display:flex;
+	justify-content:space-evenly;
+	
+}
+
+.list li {
+	list-style-type:none;
+	
+	
+	
+}
+
+
+.list li a{
+	color:#aba3a3;
+}
+
+
+.align-center{
+	align-items:center;
+}
+
+
+.banner{
+	background-color:#eee;
+	padding:80px 0;
+	min-height:70vh;
+}
+
+.banner-item{
+	padding:80px 0 0 0;
+}
+
+
+.banner h2{
+	
+
+font-family: 'Amatic SC', cursive;
+font-size:60px;
+font-weight:700;
+}
+.banner p{
+	color:rgb(127,127,144);
+	font-size:16px;
+	padding-top:20px;
+}
+
+.bg-none .fa {
+	padding-top:2px;
+	font-size:32px;
+	color:#ce1212;
+}
+.banner-btn{
+	padding-top:25px;
+	
+}
+.banner-btn a{
+	padding:15px 38px;
+	text-decoration:none;
+}
+.banner-btn .bg-none{
+	background-color:transparent;
+	color:black;
+	font-size:18px;
+	font-weight:500;
+}
+
+
+.banner-btn .bg-none:hover{
+	color:red;
+	
+}
+
+
+.img-banner{
+	padding:0 20px;
+}
+.img-banner img {
+	width:90%;
+}
+
+
+.col-1{
+	width:8.33%;
+    padding:0 15px;
+
+}
+
+
+.col-2{
+	width:16.66%;
+    padding:0 15px;
+
+}
+
+.col-3{
+	width:25%;
+    padding:0 15px;
+
+}
+
+.col-4{
+	width:33.33%;
+    padding:0 15px;
+
+}
+
+.col-5{
+	width:41.66%;
+    padding:0 15px;
+
+}
+
+
+.col-6{
+	width:50%;
+    padding:0 15px;
+
+}
+
+.col-7{
+	width:58.33%;
+    padding:0 15px;
+
+}
+
+
+.col-8{
+	width:66.66%;
+    padding:0 15px;
+
+}
+
+
+.col-9{
+	width:75%;
+    padding:0 15px;
+
+}
+
+
+.col-10{
+	width:83%;
+    padding:0 15px;
+
+}
+
+.col-11{
+	width:91.66%;
+    padding:0 15px;
+
+}
+
+
+.col-12{
+	width:100%;
+    padding:0 15px;
+
+}
+
+
+
+.list li a{
+	
+	position:relative;
+}
+
+.list li a::after{
+	content:"";
+	position:absolute;
+	background-color:red;
+	height:2px;
+	width:0;
+	left:0;
+	bottom:-5px;
+	transition:0.3s;
+	
+	
+	
+}
+.list li a:hover{
+	width:100%;
+	
+}
+
+
+
+
+
+header h1 a{
+	position:relative;
+	
+}
+
+
+header h1 a::after{
+	
+	content:"";
+	position:absolute;
+	bottom:10px;
+	height:5px;
+	width:5px;
+	border-radius:50px;
+    background-color:red;
+	
+}
+
+/* .list li a{ */
+	/* padding:0 10px; */
+	
+}
+
+.list li a:hover{
+	color:#000;
+	
+	
+}
+
+
+
+/* .list li a:after{ */
+	
+	/* content:""; */
+	/* position:relative; */
+	/* bottom:-15px; */
+	/* height:3px; */
+	/* width:0%; */
+    /* background-color:red; */
+	/* transition:0.3s; */
+	/* left:0; */
+	
+	
+/* } */
+
+.list li a:hover:after{
+	
+	
+
+	position:absolute;
+	width:100%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+/* header list a{ */
+	/* position:relative; */
+	
+/* } */
+/* header list a::after{ */
+	/* content:"hi"; */
+	/* position:absolute; */
+	
+/* } */
+
